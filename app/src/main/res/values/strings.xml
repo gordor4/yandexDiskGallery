@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Галерея</string>
+    <string name="action_settings">Настройки</string>
+
+    <string name="photo_view_activity">Просмотр изображения</string>
+
+    <string name="init_activity">Start</string>
+    <string name="setting_activity">Настройки приложения</string>
+    <string name="auth_activity">Авторизация</string>
+    <string name="setting_auth_with_user">Сменить пользователя Яндекса</string>
+    <string name="setting_clear_cache_label">Очистить кэш изображений</string>
+    <string name="setting_download_clear_image_preview">Загружать большие превью изображений</string>
+    <string name="clear_cache_complete">Очистка завершена</string>
+    <string name="switch_user_button">Сменить</string>
+    <string name="clear_cache_button">Очистить</string>
+
+    <string name="image_count_holder">%1$d из %2$d</string>
+
+    <string name="error_no_internet_connection">Нет соединения с интернетом</string>
+    <string name="server_exception">На сервере произошла ошибка, попробуйте позже</string>
+</resources>

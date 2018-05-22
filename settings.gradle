@@ -1,0 +1,4 @@
+include ':app', ':yandex-disk-sdk-example', ':yandex-disk-sdk', ':disk-restapi-sdk'
+project(':yandex-disk-sdk-example').projectDir = new File('yandex-disk-sdk-java-master/yandex-disk-sdk-example')
+project(':yandex-disk-sdk').projectDir = new File('yandex-disk-sdk-java-master/yandex-disk-sdk')
+project(':disk-restapi-sdk').projectDir = new File('yandex-disk-restapi-java-master/disk-restapi-sdk')

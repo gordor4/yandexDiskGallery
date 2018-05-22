@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="image_card_margin">5dp</dimen>
+    <dimen name="image_text_padding">5dp</dimen>
+    <dimen name="image_card_padding">5dp</dimen>
+
+    <dimen name="setting_card_padding">8dp</dimen>
+    <dimen name="setting_card_height">60dp</dimen>
+</resources>

@@ -1,0 +1,83 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textViewStyle">@style/Default.TextView</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="switchStyle">@style/Default.Switch</item>
+        <item name="buttonStyle">@style/Default.Button</item>
+    </style>
+
+    <style name="Default"/>
+
+    <style name="Default.Switch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/colorOrange</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">@color/colorAccent</item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">#42221f1f</item>
+    </style>
+
+    <style name="Default.Button" parent="Base.TextAppearance.AppCompat.Widget.Button">
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">@color/button_colors</item>
+    </style>
+
+    <style name="ToolbarTitle">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Default.TextView">
+        <item name="android:textColor">@color/textColorPrimary</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ImageCard"/>
+
+    <style name="ImageCard.Card">
+        <item name="android:padding">@dimen/image_card_padding</item>
+        <item name="android:layout_margin">@dimen/image_card_margin</item>
+    </style>
+
+    <style name="ImageCard.Image">
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="ImageCard.ImageText">
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:padding">@dimen/image_text_padding</item>
+    </style>
+
+    <style name="Setting"/>
+
+    <style name="Setting.Card">
+        <item name="android:background">@drawable/border_bottom</item>
+        <item name="android:padding">@dimen/setting_card_padding</item>
+        <item name="android:layout_height">@dimen/setting_card_height</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+</resources>
